@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Login Pages</title>
+  </head>
+  <body class="bg-dark-blue">
+    <div class="font-inter w-full h-screen bg-dark-blue text-white">
+      <div class="grid grid-cols-10 h-full">
+        <div class="col-span-6 overlay py-10 px-32 flex-col justify-between rounded-r-lg overflow-hidden hidden lg:flex">
+          <p class="font-bold text-xl">First Brackets</p>
+          <div>
+            <h1 class="font-bold text-7xl leading-[1.4]">
+              Learn to code. <br>
+              Interactivly. <br>
+              For free.
+            </h1>
+            
+            <a href="#" class="block w-fit mt-8">
+              <div class="flex items-center p-3 bg-dark-blue shadow-xl rounded-full">
+                <div class="w-12 h-12 rounded-full bg-gray grid place-items-center">
+                  <i class="fas fa-play text-white"></i>
+                </div>
+                <p class="font-medium mx-2">Watch demo</p>
+              </div>
+            </a>
+
+          </div>
+          <div>
+            <ul class="flex items-center justify-between font-light text-xl">
+              <li>Home</li>
+              <li>Tour</li>
+              <li>Courses</li>
+              <li>Articles</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-span-10 lg:col-span-4 p-12">
+          <h2 class="font-bold text-3xl leading-[1.4]">Join over 25 million <br> learners from around the globe</h2>
+          <p class="text-muted font-light text-justify mt-4 mb-8">
+            Master the language of the web: HTML CSS and Javascript. This path will prepare you to build basic websites and then build interactive web apps.
+          </p>
+          <form class="flex flex-col space-y-6">
+            <label class="rounded-lg border-2 border-gray font-light flex items-center">
+              <div class="text-lg text-light-gray px-4"><i class="fas fa-envelope"></i></div>
+              <input type="email" class="w-full flex-1 bg-dark-blue py-4" placeholder="email@email.com">
+            </label>
+            <label class="rounded-lg border-2 border-purple font-light flex items-center">
+              <div class="text-lg text-light-gray px-4"><i class="fas fa-user-circle"></i></div>
+              <input type="text" class="w-full flex-1 bg-dark-blue py-4" placeholder="username">
+            </label>
+            <label class="rounded-lg border-2 border-gray font-light flex items-center">
+              <div class="text-lg text-light-gray px-4"><i class="fas fa-lock"></i></div>
+              <input type="password" class="w-full flex-1 bg-dark-blue py-4" placeholder="password">
+            </label>
+            <button class="bg-purple rounded-lg p-4">
+              Start coding now
+            </button>
+          </form>
+          <p class="text-center text-muted my-8">Or continue with these social profiles</p>
+          <ul class="flex items-center justify-center space-x-6">
+            <li class="w-14 h-14 text-lg border-2 border-muted rounded-full grid place-items-center"><i class="fab fa-google"></i></li>
+            <li class="w-14 h-14 text-lg border-2 border-muted rounded-full grid place-items-center"><i class="fab fa-facebook-f"></i></li>
+            <li class="w-14 h-14 text-lg border-2 border-muted rounded-full grid place-items-center"><i class="fab fa-twitter"></i></li>
+            <li class="w-14 h-14 text-lg border-2 border-muted rounded-full grid place-items-center"><i class="fab fa-github"></i></li>
+          </ul>
+          <p class="text-center my-8">Already a member ? <a href="#" class="text-purple">Login</a> </p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
